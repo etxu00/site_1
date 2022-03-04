@@ -1,0 +1,178 @@
+
+:root {
+  --color1: #e6a000;
+  --color2: #0c3367;
+  --color3: #a0a0a0;
+  --color4: #3f3f3f;
+  --color5: #f2f2f2;
+}
+.row {
+  max-width: 100%;
+}
+html {
+  font-family: 'Open Sans';
+  color: var(--color2) !important;
+}
+img {
+  max-width: 100%;
+}
+/* INICIO */
+.font1 {
+  font-family: 'Krona One', sans-serif !important;
+}
+.color2 {
+  color: var(--color2) !important;
+}
+.color1 {
+  color: var(--color1) !important;
+}
+.bg-color5 {
+  background-color: var(--color5) !important;
+}
+.nav-link.text-uppercase {
+  padding: 1.5rem 1.25rem !important;
+  font-size: 1.5rem;
+  color: var(--color2) !important;
+  font-weight: 600;
+}
+.custom-1 {
+  top: 13vh;
+  left: 0;
+  color: var(--color2);
+  font-size: 2rem;
+}
+.custom-1 p {
+  padding: 1rem 1rem 1.5rem 10rem !important;
+}
+.custom-1 .btn.custom {
+  margin: 0 0 0 10rem;
+}
+.btn.custom.dark {
+  background: var(--color2) !important;
+  color: white !important;
+}
+.btn.custom {
+  background: var(--color1) !important;
+  border-color: white;
+  color: var(--color2) !important;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+h2.text-uppercase {
+  font-family: 'Krona One', sans-serif;
+  color: var(--color2);
+  margin: 6rem 0;
+  font-size: 3rem;
+}
+h2.text-uppercase span {
+  background: white;
+  padding: 0 3rem 0 0;
+}
+h2.text-uppercase:after {
+  content: '';
+  border-bottom: 3px solid var(--color3);
+  display: block;
+  margin: -15px 0 0 0;
+}
+h3.text-uppercase {
+  font-family: 'Krona One', sans-serif;
+  color: var(--color1);
+  margin: 6rem 0;
+  font-size: 2rem;
+}
+p {
+  color: var(--color4);
+  font-size: 2.2rem;
+}
+figure {
+  margin: 0;
+  color: var(--color2);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+figure img {
+  max-width: 100%;
+  width: 200px;
+}
+.custom2 {
+  background: url(../assets_bann_home2.jpg);
+  min-height: 79vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+.bg-color5 h2.text-uppercase span {
+  background: var(--color5);
+}
+.custom-3 h2.text-uppercase {
+  margin: 3rem 0 6rem 0;
+}
+.custom-3 img {
+  width: 100%;
+}
+.custom-3 figcaption {
+  font-size: .75rem;
+}
+.col-sm-12.col-md-3.c1 {
+  margin-top: 2rem;
+}
+.col-sm-12.col-md-3.c2 {
+  margin-top: 4rem;
+}
+.col-sm-12.col-md-3.c3 {
+  margin-top: 6rem;
+}
+.custom-4 {
+  margin: -140px 0 0 0;
+}
+.custom-5 {
+  background: var(--color2);
+}
+.custom-5 .border-start {
+  border-color: var(--color1) !important;
+}
+.custom-5 p {
+  color: white;
+  font-size: 1.25rem;
+  margin: 0;
+}
+.custom-5 h6 {
+  color: var(--color1);
+  letter-spacing: 6px;
+}
+.custom-5 article {
+  margin: 0 0 4rem 0;
+}
+.logo-footer {
+  max-width: 100%;
+  width: 350px;
+}
+.custom6:after {
+  content: url(../assets_ico_patronamarillo.svg);
+  position: absolute;
+  top: 70%;
+  left: 100%;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.custom6 {
+  position: relative;
+}
+.submenu {
+  background: rgb(255 255 255 / 71%);
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  width: max-content;
+  z-index: 1;
+}
+.submenu a.nav-link.text-uppercase {
+  padding: 0px 2rem 1rem !important;
+}
+.nav-link:hover .submenu {
+  display: block !important;
+}
