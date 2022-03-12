@@ -97,7 +97,7 @@ figure img {
   width: 200px;
 }
 .custom2 {
-  background: url(../assets_bann_home2.jpg);
+  background: url(../../assets/assets_bann_home2.jpg);
   min-height: 79vh;
   display: flex;
   align-items: center;
