@@ -176,3 +176,46 @@ figure img {
 .nav-link:hover .submenu {
   display: block !important;
 }
+@media screen and (max-width: 576px) {
+  section * {
+    font-size: 16px;
+  }
+  .custom6:after {
+    display: none;
+  }
+  .custom-4 {
+    margin: 0;
+  }
+  .col-sm-12.col-md-3.c1,
+  .col-sm-12.col-md-3.c2,
+  .col-sm-12.col-md-3.c3 {
+    margin-top: 3rem;
+  }
+  .custom-1 p {
+    padding: 1rem !important;
+  }
+  .custom-1 {
+    position: static !important;
+    text-align: center;
+  }
+  .custom-1 .btn.custom {
+    margin: 0;
+  }
+  h2.text-uppercase {
+    margin: 0;
+  }
+  h2.text-uppercase span {
+    margin: 2rem;
+    font-size: 20px;
+  }
+  h2.text-uppercase span br,
+  h2.text-uppercase:after {
+    display: none;
+  }
+  footer article {
+    margin: 0 0 2rem 0 !important;
+  }
+  footer img.logo-footer.mb-5 {
+    margin: 0 !important;
+  }
+}
